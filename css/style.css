@@ -1,0 +1,30 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: black;
+    background-image: url("../images/background/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+button {
+    background-image: url("../images/button/button.png");
+    border-radius: 50%;
+    margin: 50px;
+    height: 200px;
+    width: 200px;
+}
+
+.leftDiv {
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+}
+.rightDiv {
+    width: 900px;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+}
