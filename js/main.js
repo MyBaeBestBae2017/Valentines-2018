@@ -1,7 +1,7 @@
 var min = 1;
-var max = 66;
+var max = 67;
 function randomImage(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
+    return Math.floor(Math.random() * max + min);
 }
 class ImageGenerator extends React.Component {
     constructor() {
